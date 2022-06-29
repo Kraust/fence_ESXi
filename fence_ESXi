@@ -1,10 +1,12 @@
 #!/usr/bin/python3
 
-from fencing import *
 import atexit
 import sys
 import re
+
 sys.path.append("/usr/share/fence")
+from fencing import *
+
 
 
 def get_list(conn, options):
